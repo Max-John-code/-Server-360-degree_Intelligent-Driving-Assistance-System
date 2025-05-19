@@ -1,0 +1,166 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.68.168”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  CBaseTask.cpp
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CBaseTask.cpp(12,15): warning : deleting array ‘((CBaseTask*)this)->CBaseTask::data’
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CBaseTask.cpp(12,15): warning :   delete this->data;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CBaseTask.cpp(12,15): warning :                ^
+  CChildTask.cpp
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(90,46): warning : argument to ‘sizeof’ in ‘void* memcpy(void*, const void*, size_t)’ call is the same pointer type ‘char*’ as the source; expected ‘char’ or an explicit length [-Wsizeof-pointer-memaccess]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(90,46): warning :    memcpy(&loginBackPack.name, qres[1], sizeof(qres[0]));
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(90,46): warning :                                               ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(275,6): warning : unused variable ‘i’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(275,6): warning :   int i = iter->second.find(imaget.filename)->second->getAllnums();
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(275,6): warning :       ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(423,9): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(423,9): warning :      res = write(wfd, iter2->second, endbyte);
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(423,9): warning :          ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(428,9): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(428,9): warning :      res = write(wfd, iter2->second, 1000);
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(428,9): warning :          ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(471,77): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(471,77): warning :    if (iter->second.find(imageokt.filename)->second->getImg_dataMap().size() < iter->second.find(imageokt.filename)->second->getAllnums())
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(471,77): warning :                                                                              ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(473,85): warning : conversion to ‘int’ from ‘std::map<int, char*>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(473,85): warning :     for (int j = iter->second.find(imageokt.filename)->second->getImg_dataMap().size(); j < iter->second.find(imageokt.filename)->second->getAllnums(); j++)
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(473,85): warning :                                                                                      ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(491,11): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(491,11): warning :     counts = lose_nums.size() / 999;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(491,11): warning :            ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(499,11): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(499,11): warning :     counts = lose_nums.size() / 999 + 1;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(499,11): warning :            ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(501,28): warning : conversion to ‘int’ from ‘std::__cxx11::list<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(501,28): warning :    int sum = indexList.size();
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(501,28): warning :                             ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(520,25): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(520,25): warning :      imageback.fileCount = lose_nums.size();
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(520,25): warning :                          ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(826,9): warning : unused variable ‘qres’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(826,9): warning :   char** qres = nullptr;//总行 包括表头
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(826,9): warning :          ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(827,6): warning : unused variable ‘row’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(827,6): warning :   int row = 0, col = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(827,6): warning :       ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(827,15): warning : unused variable ‘col’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(827,15): warning :   int row = 0, col = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(827,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(828,6): warning : unused variable ‘res’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(828,6): warning :   int res = -1;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CChildTask.cpp(828,6): warning :       ^
+  CImage.cpp
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CImage.cpp(34,68): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CImage.cpp(34,68): warning :   if (this->img_allBytes == this->currentBytes && this->img_allNums == this->img_dataMap.size())//同时满足字节数相等 且 数量相等
+C:\vs_project\Intelligent_driving_assistance_system\backServer\CImage.cpp(34,68): warning :                                                                     ^
+  CThreadPool.cpp
+  DBBusiness.cpp
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(81,16): warning : unused variable ‘qres’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(81,16): warning :          char** qres = nullptr;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(81,16): warning :                 ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(82,13): warning : unused variable ‘row’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(82,13): warning :          int row = 0, col = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(82,13): warning :              ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(82,22): warning : unused variable ‘col’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(82,22): warning :          int row = 0, col = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(82,22): warning :                       ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(134,20): warning : unused variable ‘insertQres’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(134,20): warning :              char** insertQres = nullptr;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(134,20): warning :                     ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(135,17): warning : unused variable ‘insertRow’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(135,17): warning :              int insertRow = 0, insertCol = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(135,17): warning :                  ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(135,32): warning : unused variable ‘insertCol’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(135,32): warning :              int insertRow = 0, insertCol = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(135,32): warning :                                 ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(293,20): warning : unused variable ‘insertQres’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(293,20): warning :              char** insertQres = nullptr;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(293,20): warning :                     ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(294,17): warning : unused variable ‘insertRow’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(294,17): warning :              int insertRow = 0, insertCol = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(294,17): warning :                  ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(294,32): warning : unused variable ‘insertCol’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(294,32): warning :              int insertRow = 0, insertCol = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(294,32): warning :                                 ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(409,21): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(409,21): warning :      srand(time(NULL));
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(409,21): warning :                      ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(438,9): warning : variable ‘res’ set but not used [-Wunused-but-set-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(438,9): warning :      int res = -1;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(438,9): warning :          ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(455,12): warning : unused variable ‘qres’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(455,12): warning :      char** qres = nullptr;//总行 包括表头
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(455,12): warning :             ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(456,9): warning : unused variable ‘row’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(456,9): warning :      int row = 0, col = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(456,9): warning :          ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(456,18): warning : unused variable ‘col’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(456,18): warning :      int row = 0, col = 0;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(456,18): warning :                   ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(154,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(154,1): warning :  }
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(154,1): warning :  ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(338,1): warning : control reaches end of non-void function [-Wreturn-type]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(338,1): warning :  }
+C:\vs_project\Intelligent_driving_assistance_system\backServer\DBBusiness.cpp(338,1): warning :  ^
+  IPC.cpp
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(53,15): warning : deleting ‘void*’ is undefined [-Wdelete-incomplete]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(53,15): warning :   delete this->shmAddr;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(53,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(54,15): warning : deleting array ‘((IPC*)this)->IPC::shmArr’
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(54,15): warning :   delete this->shmArr;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(54,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(55,15): warning : deleting array ‘((IPC*)this)->IPC::sndPacket’
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(55,15): warning :   delete this->sndPacket;
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(55,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(85,47): warning : narrowing conversion of ‘sem_index’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(85,47): warning :   struct sembuf buf = { sem_index ,-1,SEM_UNDO };
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(85,47): warning :                                                ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(85,47): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(97,46): warning : narrowing conversion of ‘sem_index’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(97,46): warning :   struct sembuf buf = { sem_index ,1,SEM_UNDO };
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(97,46): warning :                                               ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(97,46): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(141,32): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(141,32): warning :   memcpy(shmAddr + sizeof(shmArr) + PACKET_SIZE * sndIndex, &this->sndPacket, PACKET_SIZE); //操作数据区：首地址 + 索引区总长度 + 数据区*下标
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(141,32): warning :                                 ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(141,50): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(141,50): warning :   memcpy(shmAddr + sizeof(shmArr) + PACKET_SIZE * sndIndex, &this->sndPacket, PACKET_SIZE); //操作数据区：首地址 + 索引区总长度 + 数据区*下标
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(141,50): warning :                                                   ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(143,33): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(143,33): warning :   memcpy(shmAddr + sizeof(int) * sndIndex, &shmArr[sndIndex], sizeof(int));     //操作索引区：首地址 + 一个索引大小*下标
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(143,33): warning :                                  ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(207,70): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(207,70): warning :   memcpy(&this->shmArr[rsvIndex], this->shmAddr + sizeof(int) * this->rsvIndex, sizeof(int));    //读索引区：首地址 + 一个索引*下标
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(207,70): warning :                                                                       ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(215,57): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(215,57): warning :    memcpy(&this->rsvPacket, this->shmAddr + sizeof(shmArr) + PACKET_SIZE * this->rsvIndex, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(215,57): warning :                                                          ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(215,81): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(215,81): warning :    memcpy(&this->rsvPacket, this->shmAddr + sizeof(shmArr) + PACKET_SIZE * this->rsvIndex, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(215,81): warning :                                                                                  ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(234,45): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(234,45): warning :    memset(this->shmAddr + sizeof(this->shmArr) + PACKET_SIZE * this->rsvIndex, 0, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(234,45): warning :                                              ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(234,69): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(234,69): warning :    memset(this->shmAddr + sizeof(this->shmArr) + PACKET_SIZE * this->rsvIndex, 0, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(234,69): warning :                                                                      ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(235,46): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(235,46): warning :    memset(this->shmAddr + sizeof(int) * this->rsvIndex, 0, sizeof(int));
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(235,46): warning :                                               ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(283,46): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(283,46): warning :   memcpy((void*)(shmaddr2 + index * sizeof(int)), &workNum[index], sizeof(int));
+C:\vs_project\Intelligent_driving_assistance_system\backServer\IPC.cpp(283,46): warning :                                               ^
+  main.cpp
+C:\vs_project\Intelligent_driving_assistance_system\backServer\main.cpp(30,38): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\main.cpp(30,38): warning :    CBaseTask* task = new CChildTask("");
+C:\vs_project\Intelligent_driving_assistance_system\backServer\main.cpp(30,38): warning :                                       ^
+C:\vs_project\Intelligent_driving_assistance_system\backServer\main.cpp(65,7): warning : unused variable ‘sql’ [-Wunused-variable]
+C:\vs_project\Intelligent_driving_assistance_system\backServer\main.cpp(65,7): warning :   char sql[200] = { 0 };
+C:\vs_project\Intelligent_driving_assistance_system\backServer\main.cpp(65,7): warning :        ^
+  SingleDB.cpp
+  正在链接对象
+  backServer.vcxproj -> C:\vs_project\Intelligent_driving_assistance_system\backServer\bin\x64\Debug\backServer.out

@@ -1,0 +1,99 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.68.168”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  CBaseSocket.cpp
+  CBaseTask.cpp
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CBaseTask.cpp(12,15): warning : deleting array ‘((CBaseTask*)this)->CBaseTask::data’
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CBaseTask.cpp(12,15): warning :   delete this->data;
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CBaseTask.cpp(12,15): warning :                ^
+  CChildTask.cpp
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(114,20): warning : statement has no effect [-Wunused-value]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(114,20): warning :     PHOTO_QUERT_BACK;
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(114,20): warning :                     ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(121,71): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(121,71): warning :    int res = write(this->workfd, this->data, sizeof(HEAD) + head.length);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(121,71): warning :                                                                        ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(187,95): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(187,95): warning :   int writeRes = write(this->rsvHead.acceptfd, newReturnPacket, sizeof(HEAD)+ returnHead.length);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CChildTask.cpp(187,95): warning :                                                                                                ^
+  CEpollServer.cpp
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(48,15): warning : deleting array ‘((CEpollServer*)this)->CEpollServer::epolleventArray’
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(48,15): warning :   delete this->epolleventArray;
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(48,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(50,15): warning : deleting array ‘((CEpollServer*)this)->CEpollServer::packet’
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(50,15): warning :   delete this->packet;
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(50,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(148,16): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(148,16): warning :       this->res = read(epolleventArray[i].data.fd, &(this->head), sizeof(this->head));
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(148,16): warning :                 ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(164,18): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(164,18): warning :         this->res = read(epolleventArray[i].data.fd, this->packet+sizeof(this->head), head.length);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(164,18): warning :                   ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(262,94): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(262,94): warning :    CBaseTask* task = new CChildTask("", GET_FROM_BACK, &epoll->cilentMap, &epoll->heartBeatMap);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\CEpollServer.cpp(262,94): warning :                                                                                               ^
+  CHeartBeatTask.cpp
+  CHostAddress.cpp
+  CTcpServer.cpp
+  CThreadPool.cpp
+  IPC.cpp
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(66,15): warning : deleting ‘void*’ is undefined [-Wdelete-incomplete]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(66,15): warning :   delete this->shmAddr;
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(66,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(67,15): warning : deleting array ‘((IPC*)this)->IPC::shmArr’
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(67,15): warning :   delete this->shmArr;
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(67,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(68,15): warning : deleting array ‘((IPC*)this)->IPC::sndPacket’
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(68,15): warning :   delete this->sndPacket;
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(68,15): warning :                ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(98,47): warning : narrowing conversion of ‘sem_index’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(98,47): warning :   struct sembuf buf = { sem_index ,-1,SEM_UNDO };
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(98,47): warning :                                                ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(98,47): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(112,46): warning : narrowing conversion of ‘sem_index’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(112,46): warning :   struct sembuf buf = { sem_index ,1,SEM_UNDO };
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(112,46): warning :                                               ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(112,46): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(152,32): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(152,32): warning :   memcpy(shmAddr + sizeof(shmArr) + PACKET_SIZE * sndIndex, &this->sndPacket, PACKET_SIZE); //操作数据区：首地址 + 索引区总长度 + 数据区*下标
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(152,32): warning :                                 ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(152,50): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(152,50): warning :   memcpy(shmAddr + sizeof(shmArr) + PACKET_SIZE * sndIndex, &this->sndPacket, PACKET_SIZE); //操作数据区：首地址 + 索引区总长度 + 数据区*下标
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(152,50): warning :                                                   ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(154,33): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(154,33): warning :   memcpy(shmAddr + sizeof(int) * sndIndex, &shmArr[sndIndex], sizeof(int));     //操作索引区：首地址 + 一个索引大小*下标
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(154,33): warning :                                  ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(160,45): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(160,45): warning :   memcpy(&data, this->shmAddr + sizeof(shmArr) + PACKET_SIZE *this->sndIndex, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(160,45): warning :                                              ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(160,68): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(160,68): warning :   memcpy(&data, this->shmAddr + sizeof(shmArr) + PACKET_SIZE *this->sndIndex, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(160,68): warning :                                                                     ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(219,70): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(219,70): warning :   memcpy(&this->shmArr[rsvIndex], this->shmAddr + sizeof(int) * this->rsvIndex, sizeof(int));    //读索引区：首地址 + 一个索引*下标
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(219,70): warning :                                                                       ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(227,57): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(227,57): warning :    memcpy(&this->rsvPacket, this->shmAddr + sizeof(shmArr) + PACKET_SIZE * this->rsvIndex, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(227,57): warning :                                                          ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(227,81): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(227,81): warning :    memcpy(&this->rsvPacket, this->shmAddr + sizeof(shmArr) + PACKET_SIZE * this->rsvIndex, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(227,81): warning :                                                                                  ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(245,45): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(245,45): warning :    memset(this->shmAddr + sizeof(this->shmArr) + PACKET_SIZE * this->rsvIndex, 0, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(245,45): warning :                                              ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(245,69): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(245,69): warning :    memset(this->shmAddr + sizeof(this->shmArr) + PACKET_SIZE * this->rsvIndex, 0, PACKET_SIZE);
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(245,69): warning :                                                                      ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(246,46): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(246,46): warning :    memset(this->shmAddr + sizeof(int) * this->rsvIndex, 0, sizeof(int));
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(246,46): warning :                                               ^
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(310,46): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(310,46): warning :   memcpy((void*)(shmaddr2 + index * sizeof(int)), &workNum[index], sizeof(int));
+C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\IPC.cpp(310,46): warning :                                               ^
+  main.cpp
+  正在链接对象
+  Intelligent_driving_assistance_system.vcxproj -> C:\vs_project\Intelligent_driving_assistance_system\Intelligent_driving_assistance_system\bin\x64\Debug\Intelligent_driving_assistance_system.out
